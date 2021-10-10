@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-image: url(laptop.jpeg);
+  background-size: cover;
+  color: white;
+}
+.container {
+  padding: 20px;
+}
+
+header {
+  width: 40%;
+  float: right;
+}
+.title {
+  border-radius: 12%;
+  border-color: aqua;
+  color: darkorange;
+  text-align: center;
+  margin-top: 234px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 46px;
+}
+.sub-title {
+  text-align: center;
+  font-size: large;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 33px;
+}
+li {
+  float: left;
+}
+.lists nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding-left: 60px;
+}
+ul {
+  list-style-type: none;
+  margin: 40px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+}
+.copyright {
+  text-align: end;
+  margin-top: 16%;
+  font-size: larger;
+}
